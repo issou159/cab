@@ -1,0 +1,112 @@
+.header{position:fixed;
+  display: flex;
+margin: 0;
+padding: 0;
+}
+
+
+.logo1{
+    width: 25%;
+    align-items: left;
+    background-color: lightgreen;
+    
+    }
+    .acceuil{
+      background-color: white;
+    padding: 10px 50px;
+    align-items: right;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: fantasy;
+    font-size: medium;
+    
+    }
+    .aboutus{
+      background-color: white;
+      padding: 10px 50px;
+      align-items: right;
+      outline: none;
+      border: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      font-family: fantasy;
+      font-size: medium;
+    }
+    .services{
+      background-color: white;
+      
+      padding: 10px 50px;
+      align-items: right;
+      outline: none;
+      border: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      font-family: fantasy;
+      font-size: medium;
+    }
+    .carte{
+      background-color: white;
+      padding: 10px 50px;
+      align-items: right;
+      outline: none;
+      border: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      font-family: fantasy;
+      font-size: medium;
+    }
+    .contact{
+      background-color: white;
+      padding: 10px 50px;
+      align-items: right;
+      outline: none;
+      border: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      font-family: fantasy;
+      font-size: medium;
+    }
+    .login{
+      background-color: white;
+      padding: 10px 80px;
+    align-items: right;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: fantasy;
+    font-size: medium;
+    }
+    a{
+      text-decoration: none;
+    }
+    .login:hover{
+      background-color: lightgreen;
+      transition: background-color 0.2s ease-in-out;
+
+    }
+    .acceuil, .aboutus, .services, .carte, .contact{
+      background-color: white;
+      padding: 10px 50px;
+      align-items: right;
+      outline: none;
+      border: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      font-family: fantasy;
+      font-size: medium;
+    }
+    
+    /* Hover effect styles */
+    
+    .acceuil:hover, .aboutus:hover, .services:hover, .carte:hover, .contact:hover {
+      background-color: lightgreen;
+      transition: background-color 0.2s ease-in-out;
+    }
+  
+    
+    
+    
+    

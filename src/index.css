@@ -1,0 +1,17 @@
+header{
+position: fixed;
+display: flex;
+
+    width: 120vw;
+    height: 110px;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.home{
+    padding-top: 110px;
+}
