@@ -33,6 +33,10 @@ function Navbar() {
                     <Customlink to="/Contact">
                         <button className="button">Contact</button>
                     </Customlink>
+                </li> <li>
+                    <Customlink to="/Contact">
+                        <button className="button">Contact</button>
+                    </Customlink>
                 </li>
                 <li>
                     <Customlink to="/Login">
