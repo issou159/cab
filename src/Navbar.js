@@ -5,12 +5,12 @@ import '../src/Styles.css';
 function Navbar() {
     return (
         <nav className="nav">
-            <Customlink to="/Home" className="site-tittle">
+            <Customlink to="/" className="site-tittle">
                 <img src={img} />
             </Customlink>
             <ul>
                 <li>
-                    <Customlink to="/Home">
+                    <Customlink to="/">
                         <button className="button">Home</button>
                     </Customlink>
                 </li>

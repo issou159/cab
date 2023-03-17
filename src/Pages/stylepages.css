@@ -1,9 +1,326 @@
+.pp{
+    height: 100px;
+    position: relative;
+    margin-top: 110px;
 
-.pp {
+}
+
+/*.....................................*/
+.svg-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #00cc99;
+}
+
+.svg-container img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    fill: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.svg-container img:hover {
+    transform: scale(1.2);
+}
+
+.svg-text {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+.svg-container p.svg-text {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #fff;
+}
+.S01{
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    text-decoration: none;
+    background: #F5F5F5;
+    margin-top: 0;
+    margin-bottom: 0.5px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    transition: clip-path 0.5s ease-in-out;
+    z-index: 6;
+    position: relative;
+}
+.S01:hover{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 50%);
+}
+.S01 h1 {
+    display: none;
+}
+/*contact css*/
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 200px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #0069d9;
+}
+.contact_form{
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.contact-form-wrapper {
+    background-image: url('../Pages/back02.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+/*..........css for about*/
+.style1 {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+
+}
+
+.style1 h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.style1 h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.style1 ul {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.style1 li {
+    margin-bottom: 10px;
+}
+
+.style1 p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+/*.......css for carte or map*/
+.pp2{
+    margin-top: 120px;
+    width: 100%;
+    background-color: #0066cc;
+    position: relative;
+    z-index: 1;
+
+}
+.ppp1{
+    animation-name: slide-right;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+
+}
+@keyframes slide-right {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+/*........................style css for about*/
+.a001 {
+    line-height: 1.5;
+    color: #007bff;
+}
+/*login style */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    padding: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+input[type='text'],
+input[type='password'] {
+    font-size: 1.2em;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../Pages/photo1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.login-form form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+}
+/*.......subscribe styles*/
+.subscribe1 {
+    display: flex;
+    position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    height: 260vh;
+    padding-top: 0;
+    background-image: url("./photo4.jpg");
+    background-size: cover;
 }
+
+.signup-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.signup-form h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"],
+.signup-form input[type="tel"],
+.signup-form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    color: #333;
+}
+
+.signup-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signup-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.signup-form hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.signup-form .form-group .btn {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-form .form-group .btn.btn-primary {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.signup-form .form-group .btn.btn-danger {
+    background-color: #dd4b39;
+    color: #fff;
+}
+
+.subscribe1 h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 

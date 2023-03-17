@@ -20,9 +20,9 @@ function Footer() {
       <div class="contact-us">
         <h4>Contact Us</h4>
         <ul>
-          <li>Phone: +1-XXX-XXX-XXXX</li>
-          <li>Email: <a href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a></li>
-          <li>Address: 123 Main Street, Your City, Your Country</li>
+          <li>Phone: +216-XXX-XXX-XX</li>
+          <li>Email: <a href="doctordriver75@gmail.com">doctordriver75@gmail.com</a></li>
+          <li>Address: Gouvernorat de, Av. Taieb Mhiri, Mahdia 5100</li>
         </ul>
       </div>
       <div class="follow-us">

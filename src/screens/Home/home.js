@@ -2,6 +2,7 @@ import { getByAltText } from '@testing-library/react';
 import React from 'react';
 import Background from '../../assets/background01.png';
 import './home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const myArray = [
@@ -17,7 +18,7 @@ const Home = () => {
     ];
     const ContactForm = () => {
         return (
-          <form>
+          <form className="contact_form">
             <label htmlFor="fname">First Name</label>
             <input type="text" id="fname" name="fname" placeholder="Your name.."/>
             <label htmlFor="lname">Last Name</label>
@@ -36,7 +37,7 @@ const Home = () => {
         <div className="home" id='001'>
          <div class="background01">
             <img src={Background} style={{width: '900px',height: '250 px',padding: 0,margin: 0}}/>
-            <p><strong>Take Advantage</strong><br/><br/>DoctorDriver provides patients and doctors with an online practice management system<br/><br/><button className="inscription" onClick={() =>console.log('inscription')}>subscribe</button></p>
+            <p><strong>Take Advantage</strong><br/><br/>DoctorDriver provides patients and doctors with an online practice management system<br/><br/><Link to="/subscribe" className="inscription">Subscribe</Link></p>
 
          </div>
        

@@ -23,6 +23,7 @@ p{  margin:5px;
     align-items: center;
     border-radius: 25px;
     font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
     
     
 }
@@ -199,10 +200,24 @@ display: inline;
     border-radius: 4px;
     cursor: pointer;
   }
-  
+
   input[type=submit]:hover {
     background-color: #45a049;
   }
+.contact_form {
+    background-image: url('./photo2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.contact{
+background-image: url("./photo3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
 
   
 

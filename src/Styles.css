@@ -9,6 +9,7 @@
 
 .nav {
     position: fixed;
+    z-index:4 ;
     height: 105px;
     top: 0;
     left: 0;

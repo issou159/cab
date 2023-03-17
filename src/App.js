@@ -9,6 +9,7 @@ import Services from "./Pages/Services";
 import Carte from "./Pages/Carte";
 import Contact from "./Pages/Contact";
 import Login from "./Pages/Login";
+import SubscriptionPage from "./Pages/subscribe";
 
 function App(){
     return (
@@ -17,15 +18,14 @@ function App(){
             <Navbar />
 
             <Routes>
-                <Route path="/" element={<Outlet />}>
 
-                </Route>
-                <Route path="/home" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/About" element={<About />} />
                 <Route path="/Services" element={<Services />} />
                 <Route path="/Carte" element={<Carte />} />
                 <Route path="/Contact" element={<Contact />} />
                 <Route path="/Login" element={<Login />} />
+                <Route path="/subscribe" element={<SubscriptionPage />} />
             </Routes>
             <Footer />
         </div>
