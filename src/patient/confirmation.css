@@ -1,0 +1,17 @@
+.confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.confirmation-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.confirmation-text {
+    font-size: 18px;
+    text-align: center;
+}

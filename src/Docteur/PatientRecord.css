@@ -1,0 +1,40 @@
+.patient-record-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 150px;
+}
+
+.patient-record-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.patient-record-form input,
+.patient-record-form textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+.patient-record-form textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+.patient-record-form button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.patient-record-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
